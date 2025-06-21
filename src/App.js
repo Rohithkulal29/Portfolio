@@ -1,6 +1,6 @@
 // src/App.js
 
-import { useEffect, useState } from 'react'; // Keep useState if used elsewhere, remove useEffect if not
+// import { useEffect, useState } from 'react'; // Keep useState if used elsewhere, remove useEffect if not
 import { motion } from 'framer-motion';
 import Tilt from 'react-parallax-tilt';
 
@@ -24,7 +24,7 @@ export default function App() {
   // Removed: if (isLoading) { return <Preloader />; }
 
   const NAVBAR_HEIGHT = 64; 
-  const SCROLL_OFFSET = -NAVBAR_HEIGHT - 20; 
+  // const SCROLL_OFFSET = -NAVBAR_HEIGHT - 20; 
 
   return (
     <div className="relative overflow-hidden text-white">
